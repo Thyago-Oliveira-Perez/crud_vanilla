@@ -1,0 +1,59 @@
+:root {
+  --green: #00d800;
+  --blue: #0000ff;
+}
+
+body {
+  height: 100vh;
+  width: 100wh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 40px;
+  border-radius: 30px;
+  background-color: var(--blue);
+}
+
+.input_area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input_field {
+  gap: 4px;
+  display: flex;
+  alig-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+label {
+  color: white;
+}
+
+input {
+  border-radius: 5px;
+  height: 20px;
+  width: 200px;
+}
+
+button {
+  border-radius: 5px;
+  height: 28px;
+  width: 100px;
+  background-color: var(--green);
+  color: white;
+}
